@@ -1,0 +1,50 @@
+# worked hard to get it done had some personal stuff will have it perfect for the group sub.
+
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+Enter option: 1
+ID: ID, Name: Name, Diagnosis: Diagnosis, Gender: Gender, Age: Age
+ID: 12, Name: Pankaj, Diagnosis: Leukemia, Gender: Male, Age: 30
+ID: 13, Name: Janina, Diagnosis: Cold, Gender: Female, Age: 23
+ID: 14, Name: Alonna, Diagnosis: Malaria, Gender: Female, Age: 45
+ID: 15, Name: Ravi, Diagnosis: Diabetes, Gender: Male, Age: 65
+
+# run 2
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+Enter option: 2
+Enter the Patient ID: 15
+Patient with ID 15 not found.
+# run 3
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+Enter option: 3
+Enter Patient ID: 16
+Traceback (most recent call last):
+  File "/Users/isaacsaffran/Desktop/Isaac_Saffran_Submission/patient_functions.py", line 116, in <module>
+    patient = editPatientInfo(patient_list)		
+  File "/Users/isaacsaffran/Desktop/Isaac_Saffran_Submission/patient_functions.py", line 46, in editPatientInfo
+    p.ID = input("Enter Patient ID: ") 
+NameError: name 'p' is not defined
+
+# 4
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+Enter option: 4
+Traceback (most recent call last):
+  File "/Users/isaacsaffran/Desktop/Isaac_Saffran_Submission/patient_functions.py", line 120, in <module>
+    var = editPatientInfo(patient_list)		
+NameError: name 'patient_list' is not defined
+
